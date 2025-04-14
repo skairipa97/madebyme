@@ -10,9 +10,9 @@ export default function ContactPage() {
       <div className="container py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h1 className="text-3xl font-bold mb-2">Contact Us</h1>
+            <h1 className="text-3xl font-bold mb-2">Contactez-nous</h1>
             <p className="text-muted-foreground mb-6">
-              We'd love to hear from you. Fill out the form or reach out through any of our channels.
+              Nous sommes là pour vous aider. Remplissez le formulaire ou contactez-nous directement.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -21,14 +21,14 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-1">Email Us</h3>
+                  <h3 className="font-medium mb-1">Email</h3>
                   <p className="text-muted-foreground">
-                    <a href="mailto:support@customcouture.com" className="hover:text-purple-700">
-                      support@customcouture.com
+                    <a href="mailto:contact@madebyme.ma" className="hover:text-purple-700">
+                      contact@madebyme.ma
                     </a>
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    We respond to all emails within 24 hours
+                    Nous répondons à tous les emails sous 24 heures
                   </p>
                 </div>
               </div>
@@ -38,14 +38,14 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-1">Call Us</h3>
+                  <h3 className="font-medium mb-1">Téléphone</h3>
                   <p className="text-muted-foreground">
-                    <a href="tel:+15551234567" className="hover:text-purple-700">
-                      +1 (555) 123-4567
+                    <a href="tel:+212522123456" className="hover:text-purple-700">
+                      +212 522 12 34 56
                     </a>
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Monday to Friday, 9am - 5pm PST
+                    Du lundi au vendredi, 9h - 18h
                   </p>
                 </div>
               </div>
@@ -55,10 +55,11 @@ export default function ContactPage() {
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-1">Visit Us</h3>
+                  <h3 className="font-medium mb-1">Notre adresse</h3>
                   <p className="text-muted-foreground">
-                    123 Fashion Avenue<br />
-                    San Francisco, CA 94103
+                    123 Boulevard Mohammed V<br />
+                    Quartier des Affaires<br />
+                    20250 Casablanca, Maroc
                   </p>
                 </div>
               </div>

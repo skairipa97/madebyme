@@ -18,6 +18,8 @@ import CheckoutPage from "./pages/CheckoutPage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import NotFound from "./pages/NotFound";
+import HowItWorksPage from "./pages/HowItWorksPage";
+import AboutPage from "./pages/AboutPage";
 
 // Auth components
 import { LoginForm } from "./components/auth/LoginForm";
@@ -41,6 +43,8 @@ const App = () => (
                 <Route path="/customize/:designId" element={<CustomizePage />} />
                 <Route path="/upload" element={<UploadPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/how-it-works" element={<HowItWorksPage />} />
+                <Route path="/about" element={<AboutPage />} />
                 
                 {/* Shopping Cart & Checkout */}
                 <Route path="/cart" element={<CartPage />} />
