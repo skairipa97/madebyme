@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { useDesigns } from "@/context/DesignContext";
 import { Layout } from "@/components/layout/Layout";
@@ -26,15 +25,15 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight gradient-text">
-                Wear your unique style
+                Your Design, Your Style
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Discover custom clothing designs from independent creators and personalize them to match your style.
+                MadeByMe: Where creativity meets fashion. Design, customize, and wear your unique style.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/designs">
                   <Button size="lg" className="gradient-purple">
-                    Browse Designs
+                    Explore Designs
                   </Button>
                 </Link>
                 <Link to="/signup?role=designer">
